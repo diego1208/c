@@ -1,0 +1,23 @@
+
+#include  <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main(){
+	
+	float cateto_adyacente, cateto_opuesto, hipotenusa= 0;
+	
+	
+	cout<<"ingrese el valor del cateto adyacente: ";cin>>cateto_adyacente;
+	
+	cout<<"ingrese el valordel cateto opuesto: "; cin>>cateto_opuesto;
+	
+	hipotenusa= sqrt(cateto_adyacente*cateto_adyacente+cateto_opuesto*cateto_opuesto);
+	
+	cout.precision <2>;
+	cout<<"el valor de la hipotenusa es: "<<hipotenusa<<endl;
+
+	return 0;
+}
